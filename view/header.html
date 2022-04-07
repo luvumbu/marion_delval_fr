@@ -1,3 +1,41 @@
- <h2 >
-    Localisation du fichier view/header.html 
-</h2>
+<div class="header_0">
+    <h1 class="header_0_1" title="home" onclick="redirection_title(this)">
+        ACCUEIL
+    </h1>
+    <h1 class="header_0_2" title="galerie" onclick="redirection_title(this)">
+        GALERIE
+    </h1>
+    <h1 class="header_0_3" title="contact" onclick="redirection_title(this)">
+        CONTACT
+    </h1>
+</div>
+
+<style>
+    .header_0 {
+        display: flex;
+        justify-content: space-around;
+        width:60%; 
+        margin:auto ; 
+        margin-top:50px; 
+    }
+    body {
+        width:80%; 
+        margin:auto ; 
+    }
+    h1 {
+        font-size:1.2em ; 
+    } 
+    .header_0_1
+    {
+        color:  #c9bd93 ; 
+    }
+    
+ 
+    .header_0_2,.header_0_3{
+        color:#764c11 ; 
+    }
+    .header_0_1:hover,.header_0_2:hover,.header_0_3:hover{
+        color:  #c9bd93 ; 
+        cursor: pointer;
+    }
+</style>

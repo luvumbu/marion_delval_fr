@@ -166,3 +166,8 @@ ok.push(); // envoie l'information au code pkp
   
 
  }
+
+function redirection_title(_this){
+  Ajax("app_section","view/"+_this.title+".php");
+}
+ Ajax("app_section","view/home.php");
